@@ -18,21 +18,25 @@ header {
     padding: 0;
     margin: 0;
 }
+.container-fluid{
+    position: relative;
+}
 
-.container-fluid.p-0 .navbar.navbar-expand-lg {
-    background: #1c1c1c;
-    color: white;
+.container-fluid .navbar.navbar-expand-lg {
+    background: transparent;
+    color: black;
+    position: 
     /* padding: 2vmin;*/
 }
 
-.container-fluid.p-0 .navbar.navbar-expand-lg>h5 {
+.container-fluid .navbar.navbar-expand-lg>h5 {
     font-family: var(--open);
-    font-weight: 500;
-    font-size: 1.2em;
+    font-weight: 550;
+    font-size: 1.3em;
 }
 
-.container-fluid.p-0 .navbar.navbar-expand-lg .nav-link {
-    color: white;
+.container-fluid .navbar.navbar-expand-lg .nav-link {
+    color: black;
 }
 
 .container-fluid .navbar.navbar-expand-lg img.srmlogo {
@@ -41,47 +45,54 @@ header {
     width: 10%;
 }
 
-.container-fluid.p-0 .navbar.navbar-expand-lg .collapse {
+.container-fluid .navbar.navbar-expand-lg .collapse {
     font-family: var(--open);
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
-.container-fluid.p-0 .navbar.navbar-expand-lg .collapse.navbar-collapse ul.navbar-nav li.nav-item {
+.nav-item {
     padding-right: 2vmin;
 }
 .nav-item .btn{
     position: relative;
-
+    z-index: 1;
 }
 .nav-item .btn:hover{
     border-bottom: 3px solid var(--bord);
+}
+.nav-link{
+    font-size: 1.1em;
 }
 .search-box{
   position: relative;
   top: 50%;
   left: 50%; 
   transform: translate(-50%,-50%);
-  background: #2f3640;
+  background: white;
   height: 40px;
   border-radius: 40px;
 }
-.search-box:hover > .search-txt{
+.search-box:focus, .search-txt{
   width: 240px;
+  border: 1px solid black;
 }
+.search-box:hover, .search-txt , .nav-item{
+    opacity: 1;
+  }
 .search-btn  .fas.fa-search{
-  color:  white;
+  color:  black;
   float: right;
   width: 40px;
   height: 40px;
   border-radius: 40px;
-  background: #2f3640;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.search-box:hover > .search-btn .fas.fa-search{
-  background:var(--head);
-  border: 1px solid white;
+.search-box:focus > .search-btn .fas.fa-search{
+  background: white;
+  /*border: 1px solid black;*/
 }
 .search-txt{
   border: none;
