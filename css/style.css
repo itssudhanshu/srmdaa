@@ -72,7 +72,7 @@ header {
   height: 40px;
   border-radius: 40px;
 }
-.search-box:focus, .search-txt{
+.search-box:active, .search-txt{
   width: 240px;
   border: 1px solid black;
 }
@@ -90,7 +90,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-.search-box:focus > .search-btn .fas.fa-search{
+.search-box:active > .search-btn .fas.fa-search{
   background: white;
   /*border: 1px solid black;*/
 }
@@ -109,14 +109,14 @@ header {
 .dropdown-menu{
     display: none;
     position: absolute;
-    background: var(--head);
+    background: white;
     min-width: 150px;
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 2);
     z-index: 1;
 }
 .dropdown-menu .dropdown-item{
-    color:white;
-    background: var(--head);
+    color:black;
+    background: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
