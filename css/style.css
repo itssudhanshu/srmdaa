@@ -14,7 +14,7 @@
     src: local("productsans"), url("../Fonts/ProductSans-Regular.ttf") format("truetype");
     /* non-IE */
 }
-header {
+.header {
     padding: 0;
     margin: 0;
     position: absolute;
@@ -44,9 +44,9 @@ header {
     font-weight: 550;
     font-size: 1.3em;
 }
-.collapse.navbar-collapse{
+/* .collapse.navbar-collapse{
     padding-left: 120vmin;
-}
+} */
 .container-fluid .navbar.navbar-expand-lg .nav-link {
     color: black;
 }
