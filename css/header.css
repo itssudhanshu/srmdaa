@@ -22,6 +22,29 @@
   .headertoggle a{
       color:white;
   }
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 150px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 2);
+    z-index: 1;
+}
+.dropdown-menu .dropdown-item{
+    color:black;
+    background: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu .dropdown-item:hover{
+    border-radius: 3px;
+    border-bottom: 3px solid #47ff65;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
  /* countdown */
  .bg{
     background-image: url("slider1.jpeg");
