@@ -1,13 +1,12 @@
-.header{
+/* .header{
     position: absolute;
-	color: white;
-	z-index: 10;
+    color: white;
 }
 
 .header a{
     color:white;
-}
-.sticky {
+} */
+/* .sticky {
 	position: fixed;
 	top: -19px;
 	width: 100%;
@@ -20,13 +19,13 @@
      
 
   .headertoggle{
-      transition: 0.5s;
+      transition: 0.7s;
       background-color:black;
       color: white;
   }
   .headertoggle a{
       color:white;
-  }
+  } */
   .dropdown-menu{
     display: none;
     position: absolute;
@@ -364,37 +363,6 @@ slide p{
 		 -o-transition: all 200ms ease-out; 
 			transition: all 200ms ease-out; 
  }
- #product-card2.animate{
-  
-	box-shadow:0px 13px 21px -5px rgba(0, 0, 0, 0.3);
-   
-   }
-   .stats-container2{
-	background:#fff;	
-	opacity:0.7;
-	position:absolute;
-	top:285px;
-	left:0;
-	width:340px;
-	height:300px;
-	padding:27px 35px 35px;	
-	-webkit-transition: all 200ms ease-out; 
-		 -moz-transition: all 200ms ease-out; 
-		   -o-transition: all 200ms ease-out; 
-			  transition: all 200ms ease-out;
-   }
-   #product-card2.animate .stats-container2{
-	top:200px;
-	-webkit-transition: all 200ms ease-out; 
-		 -moz-transition: all 200ms ease-out; 
-		   -o-transition: all 200ms ease-out; 
-			  transition: all 200ms ease-out; 
-   }
-
-
-
-
-   
  
  
  #make-3D-space3{
@@ -440,101 +408,6 @@ slide p{
 		  -o-transition: all 200ms ease-out; 
 			 transition: all 200ms ease-out; 
   }
-  #product-card3.animate{
-   
-	 box-shadow:0px 13px 21px -5px rgba(0, 0, 0, 0.3);
-	
-	}
-	.stats-container3{
-	 background:#fff;	
-	 opacity:0.7;
-	 position:absolute;
-	 top:285px;
-	 left:0;
-	 width:340px;
-	 height:300px;
-	 padding:27px 35px 35px;	
-	 -webkit-transition: all 200ms ease-out; 
-		  -moz-transition: all 200ms ease-out; 
-			-o-transition: all 200ms ease-out; 
-			   transition: all 200ms ease-out;
-	}
-	#product-card3.animate .stats-container3{
-	 top:200px;
-	 -webkit-transition: all 200ms ease-out; 
-		  -moz-transition: all 200ms ease-out; 
-			-o-transition: all 200ms ease-out; 
-			   transition: all 200ms ease-out; 
-	}
- 
- #make-3D-space1{
-	margin: 0;
-	padding: 0;
-	 perspective: 800px;
-	 width:340px;
-	 height:370px;
-	 transform-style: preserve-3d;
-	 transition: transform 5s;
-	 overflow:hidden;
-	
-  }
-  .stats-container1 p{
-   font-size:16px;
-   
-   padding:2px 0 20px 0;
-  }
   
-  #product-card1.animate{
-  
-   box-shadow:0px 13px 21px -5px rgba(0, 0, 0, 0.3);
-  
-  }
-  .stats-container1{
-   background:#fff;	
-   opacity:0.7;
-   position:absolute;
-   top:285px;
-   left:0;
-   width:340px;
-   height:300px;
-   padding:27px 35px 35px;	
-   -webkit-transition: all 200ms ease-out; 
-		-moz-transition: all 200ms ease-out; 
-		  -o-transition: all 200ms ease-out; 
-			 transition: all 200ms ease-out;
-  }
-  #product-card1.animate .stats-container1{
-   top:200px;
-   -webkit-transition: all 200ms ease-out; 
-		-moz-transition: all 200ms ease-out; 
-		  -o-transition: all 200ms ease-out; 
-			 transition: all 200ms ease-out; 
-  }
-  #product-card1.animate{
-  
-	box-shadow:0px 13px 21px -5px rgba(0, 0, 0, 0.3);
-   
-   }
-   .stats-container1{
-	background:#fff;	
-	opacity:0.7;
-	position:absolute;
-	top:285px;
-	left:0;
-	width:340px;
-	height:300px;
-	padding:27px 35px 35px;	
-	-webkit-transition: all 200ms ease-out; 
-		 -moz-transition: all 200ms ease-out; 
-		   -o-transition: all 200ms ease-out; 
-			  transition: all 200ms ease-out;
-   }
-   #product-card1.animate .stats-container1{
-	top:200px;
-	-webkit-transition: all 200ms ease-out; 
-		 -moz-transition: all 200ms ease-out; 
-		   -o-transition: all 200ms ease-out; 
-			  transition: all 200ms ease-out; 
-   }
  /* card end */
  

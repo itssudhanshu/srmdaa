@@ -13,7 +13,7 @@ window.onscroll = function () {
       header.classList.remove("sticky");
     }
 
-    if (document.body.scrollTop > 660 || document.documentElement.scrollTop > 660) {
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
       header.classList.add("headertoggle");
     } else {
       header.classList.remove("headertoggle");
@@ -37,3 +37,51 @@ window.onscroll = function () {
     document.getElementById("seconds").textContent = seconds;
 
   }, 1000);
+
+$(document).ready(function(){
+	
+	// Lift card and show stats on Mouseover
+
+  $('#product-card2').hover(function(){
+    $(this).addClass('animate');
+    $('div.carouselNext, div.carouselPrev').addClass('visible');			
+   }, function(){
+    $(this).removeClass('animate');			
+    $('div.carouselNext, div.carouselPrev').removeClass('visible');
+});	
+$('#product-card3').hover(function(){
+    $(this).addClass('animate');
+    $('div.carouselNext, div.carouselPrev').addClass('visible');			
+   }, function(){
+    $(this).removeClass('animate');			
+    $('div.carouselNext, div.carouselPrev').removeClass('visible');
+});	
+$('#product-card1').hover(function(){
+  $(this).addClass('animate');
+  $('div.carouselNext, div.carouselPrev').addClass('visible');			
+ }, function(){
+  $(this).removeClass('animate');			
+  $('div.carouselNext, div.carouselPrev').removeClass('visible');
+});	
+});
+var galleryThumbs = new Swiper('.gallery-thumbs', {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  loop: true,
+  freeMode: true,
+  loopedSlides: 5, //looped slides should be the same
+  watchSlidesVisibility: true,
+  watchSlidesProgress: true,
+});
+var galleryTop = new Swiper('.gallery-top', {
+  spaceBetween: 10,
+  loop:true,
+  loopedSlides: 5, //looped slides should be the same
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  thumbs: {
+    swiper: galleryThumbs,
+  },
+});

@@ -1,146 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title>community</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="swiper.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 
-  <link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="swiper.min.css">
+
+  <!-- Demo styles -->
   <style>
-      html, body {
-        position: relative;
-        height: 100%;
-      }
-      body {
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-      }
-      .swiper-container {
-        width: 100%;
-        height: 300px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .swiper-slide {
-        background-size: cover;
-        background-position: center;
-      }
-      .gallery-top {
-        height: 80%;
-        width: 100%;
-      }
-      .gallery-thumbs {
-        height: 20%;
-        box-sizing: border-box;
-        padding: 10px 0;
-      }
-      .gallery-thumbs .swiper-slide {
-        height: 100%;
-        opacity: 0.4;
-      }
-      .gallery-thumbs .swiper-slide-thumb-active {
-        opacity: 1;
-      }
-  
-    </style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    
+    .swiper-container {
+      width: 100%;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+    }
+    .gallery-top {
+      height: 80%;
+      width: 100%;
+    }
+    .gallery-thumbs {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+    .gallery-thumbs .swiper-slide {
+      height: 100%;
+      opacity: 0.4;
+    }
+    .gallery-thumbs .swiper-slide-thumb-active {
+      opacity: 1;
+    }
 
-  <script src="main.js"></script>
-  <title>Community</title>
+  </style>
 </head>
 <body>
-  
-  <header class="header">
-    <div class="container-fluid p-0" id="myHeader">
-      <nav class="navbar navbar-expand-lg">
-        <img src="assets/srm_logo.png" class="srmlogo" alt="SRM Institute of Science and Technology"
-          style="width:117px">
-        <h5 style="padding-left: 34px; ">Directorate of Alumni Affairs</h5>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 292px;">
-          <div class="mr-auto"></div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <button type="button" class="btn btn-sm px-0 py-0"><a class="nav-link" href="#">Home</a></button>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="btn btn-sm px-0 py-0"><a class="nav-link" href="#">Alumni
-                  Connection</a></button>
-            </li>
-            <li class="nav-item dropdown" id="itemhide">
-              <button type="button" class="btn btn-sm px-0 py-0"><a class="nav-link dropdown-toggle" href="#"
-                  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Events
-                </a></button>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Achievers Connect</a>
-                <a class="dropdown-item" href="#">Internship Fair</a>
-                <a class="dropdown-item" href="#">Hangout Series</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="btn btn-sm px-0 py-0"><a class="nav-link" href="#">Event Tickets</a></button>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="btn btn-sm px-0 py-0"><a class="nav-link" href="community.html">Community</a></button>
-            </li>
-
-          </ul>
-
+    <header class="header">
+        <div class="container-fluid p-0" id="myHeader">
+          <nav class="navbar navbar-expand-lg">
+            <img src="assets/srm_logo.png" class="srmlogo" alt="SRM Institute of Science and Technology"
+              style="width:117px">
+            <h5 style="padding-left: 34px; ">Directorate of Alumni Affairs</h5>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 292px;">
+              <div class="mr-auto"></div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-sm px-0 py-0"><a class="nav-link" href="#">Home</a></button>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-sm px-0 py-0"><a class="nav-link" href="#">Alumni
+                      Connection</a></button>
+                </li>
+                <li class="nav-item dropdown" id="itemhide">
+                  <button type="button" class="btn btn-sm px-0 py-0"><a class="nav-link dropdown-toggle" href="#"
+                      id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Events
+                    </a></button>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Achievers Connect</a>
+                    <a class="dropdown-item" href="#">Internship Fair</a>
+                    <a class="dropdown-item" href="#">Hangout Series</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-sm px-0 py-0"><a class="nav-link" href="#">Event Tickets</a></button>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-sm px-0 py-0"><a class="nav-link" href="community.html">Community</a></button>
+                </li>
+    
+              </ul>
+    
+            </div>
+          </nav>
         </div>
-      </nav>
+      </header>
+  <!-- Swiper -->
+  <div class="swiper-container gallery-top">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/1/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/2/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/3/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/4/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/5/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/6/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/7/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/8/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/9/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/10/)"></div>
     </div>
-  </header>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+  </div>
+  <div class="swiper-container gallery-thumbs">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/1/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/2/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/3/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/4/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/5/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/6/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/7/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/8/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/9/)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/10/)"></div>
+    </div>
+  </div>
 
 
 
-  <section>
 
-      <div class="swiper-container gallery-top">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/1/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/2/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/3/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/4/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/5/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/6/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/7/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/8/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/9/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/10/)"></div>
-          </div>
-          <!-- Add Arrows -->
-          <div class="swiper-button-next swiper-button-white"></div>
-          <div class="swiper-button-prev swiper-button-white"></div>
-        </div>
-        <div class="swiper-container gallery-thumbs">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/1/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/2/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/3/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/4/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/5/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/6/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/7/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/8/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/9/)"></div>
-            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/1200/1200/nature/10/)"></div>
-          </div>
-        </div>
 
-  </section>
-    <section class="section2">
+
+
+
+  <section class="section2">
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
@@ -1055,8 +1055,8 @@
         </div>
       </div>
     </section>
-    </main>
-    <footer id="footer">
+
+  <footer id="footer">
       <div  id="Contact" style="font-family: 'Open Sans', sans-serif;">
             
               
@@ -1076,7 +1076,7 @@
                   </div>
           
                  
-  
+    
       </div>
       <div style="text-align:center;color: black;">
       <!-- <h1>DAA</h1> -->
@@ -1085,40 +1085,19 @@
           <a href="header.html#myHeader" class="btn--default AnimateScrollLink"><i class="fas fa-level-up-alt fa-2x"></i></a>
         </div>
       </div>  
-  </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-      <script src="header.js"></script>
-      <script>
-          var galleryThumbs = new Swiper('.gallery-thumbs', {
-            spaceBetween: 10,
-            slidesPerView: 4,
-            loop: true,
-            freeMode: true,
-            loopedSlides: 5, //looped slides should be the same
-            watchSlidesVisibility: true,
-            watchSlidesProgress: true,
-          });
-          var galleryTop = new Swiper('.gallery-top', {
-            spaceBetween: 10,
-            loop:true,
-            loopedSlides: 5, //looped slides should be the same
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-            thumbs: {
-              swiper: galleryThumbs,
-            },
-          });
-        </script>
-          <script src="swiper.min.js"></script>
-
+    </footer>
+     <!--footer end-->
+  <!-- Swiper JS -->
+  <script src="swiper.min.js"></script>
+  <script src="header.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="header.js"></script>
 
 </body>
-</html>  
+</html>
