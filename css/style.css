@@ -195,13 +195,27 @@
 }
 
 /*footer*/
-footer{
+/* footer{
     padding-left: 80vmin;
-}
+} */
 footer img{
     position: relative;
     padding: 5em 1em !important;
 }
 .follows {
     position: relative;
+}
+#footer{
+    background-color:white;
+    position: relative;
+    height: 100%;
+    margin-top: 0%;
+    clear: both;
+
+}
+.backtotop{
+    text-align-last: end;
+}
+#Contact{
+    text-align: -webkit-center;
 }

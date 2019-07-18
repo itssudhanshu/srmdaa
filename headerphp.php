@@ -107,64 +107,10 @@
     <p>bnbvsfbjhb mbv fbjhgsfjmv fjh xj</p>
     <p>bnbvsfbjhb mbv fbjhgsfjmv fjh xj</p>
     </div>
-   <section>
-      <div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/slider1.jpeg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="images/slider1.jpeg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="images/slider1.jpeg" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
 
-  </section>
-    
 
  <!-- footer starts -->
- <!-- <?php include("menu.php"); ?> -->
- <footer id="footer">
-  <div  id="Contact" style="font-family: 'Open Sans', sans-serif;">
-        
-          
-              
-              <P>Let us be social</P>
-              <div class="container">
-                <div class="icons mr-auto content-center"></div>
-                <a href="https://www.facebook.com/srmuaa" class="follows" target="_blank"><img src="assets/facebook.png"
-                    alt=""></a>
-                <a href="https://www.instagram.com/srmuaa/" class="follows" target="_blank"><img src="assets/instagram.png"
-                    alt=""></a>
-                <a href="https://www.linkedin.com/school/srmuaa/" class="follows" target="_blank"><img src="assets/linkedin.png"
-                    alt=""></a>
-                <a href="https://twitter.com/srmuaa" class="follows" target="_blank"><img src="assets/twitter.png" alt=""></a>
-                <a href="#" class="follows" target="_blank"><img src="assets/youtube.png" alt=""></a>
-              </div>
-              </div>
-      
-             
-
-  </div>
-  <div style="text-align:center;color: black;">
-  <!-- <h1>DAA</h1> -->
-  <p >&copy; 2019 DAA, All Rights Reserved , Designed and Developed By - Nirbhay and Sudhanshu</p>
-  <div id="backToTop" class="backtotop">
-      <a href="header.html#myHeader" class="btn--default AnimateScrollLink"><i class="fas fa-level-up-alt fa-2x"></i></a>
-    </div>
-  </div>  
-</footer>
+ <?php include("footer.php"); ?>
  <!--footer end-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
