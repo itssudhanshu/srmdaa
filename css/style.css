@@ -1,46 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-:root {
-    --open: 'Open Sans', cursive;
-    --head: #1c1c1c;
-    --bord: #47ff65;
-    --foot: #383838;
-}
-
-@font-face {
-    font-family: "ProductSans-Regular.ttf";
-    src: url(../Fonts/ProductSans-Regular.ttf);
-    /*if IE */
-    src: local("productsans"), url("../Fonts/ProductSans-Regular.ttf") format("truetype");
-    /* non-IE */
-}
-<<<<<<< HEAD
-=======
-.header {
-    padding: 0;
-    margin: 0;
-    /* position: absolute; */
-}
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .section2 {
-    padding-top: 102px;
-  }
->>>>>>> b0a7153681bc3143beeb624a7e83ed163f8231be
-.container-fluid{
-    position: relative;
-}
-
-.container-fluid .navbar.navbar-expand-lg {
-    background: transparent;
-    color: black;
-    position: 
-    /* padding: 2vmin;*/
-}
 
 .container-fluid .navbar.navbar-expand-lg>h5 {
     font-family: var(--open);
@@ -50,9 +8,7 @@
 /* .collapse.navbar-collapse{
     padding-left: 120vmin;
 } */
-.container-fluid .navbar.navbar-expand-lg .nav-link {
-    color: black;
-}
+
 
 .container-fluid .navbar.navbar-expand-lg img.srmlogo {
     padding-left: 2vmin;

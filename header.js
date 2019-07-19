@@ -13,7 +13,7 @@ window.onscroll = function () {
       header.classList.remove("sticky");
     }
 
-    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    if (document.body.scrollTop > 590 || document.documentElement.scrollTop > 590) {
       header.classList.add("headertoggle");
     } else {
       header.classList.remove("headertoggle");

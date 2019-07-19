@@ -3,7 +3,9 @@
 	color: white;
 	z-index: 10;
 }
-
+h1{
+	font-family: 'Open Sans', sans-serif;
+}
 .header a{
     color:white;
 }
@@ -20,7 +22,7 @@
      
 
   .headertoggle{
-      transition: 0.5s;
+      transition: 0.3s;
       background-color:black;
       color: white;
   }
@@ -51,6 +53,58 @@
     display: block;
 }
  /* countdown */
+
+
+ .nextevent p {
+	font-family : Rubik;
+	font-size : 36px;
+	font-weight : 500;
+	
+	text-align : center;
+	
+	white-space: nowrap;
+	overflow: hidden;
+  }
+  .nextevent p:nth-child(1) {
+  
+	width:400px;
+	-webkit-animation: type 4s steps(40, end);
+	animation: type 4s steps(40, end);
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+  }
+  
+@keyframes type {
+	0% {
+	  width: 0;
+	}
+	
+	}
+	100%{
+	  border:none;
+	}
+  }
+  
+  @-webkit-keyframes type {
+	0% {
+	  width: 0;
+	}
+  
+	}
+	100% {
+	  border:none;
+	}
+  }
+  @keyframes blink {
+	50% {
+	  border-color: transparent;
+	}
+  }
+  @-webkit-keyframes blink {
+	50% {
+	  border-color: tranparent;
+	}
+  }
  .bg{
     background-image: url("slider1.jpeg");
 	width: 100%;
@@ -299,7 +353,7 @@ slide p{
    background:#fff;	
    opacity:0.7;
    position:absolute;
-   top:285px;
+   top:300px;
    left:0;
    width:340px;
    height:300px;
@@ -347,7 +401,7 @@ slide p{
   background:#fff;	
   opacity:0.7;
   position:absolute;
-  top:285px;
+  top:300px;
   left:0;
   width:340px;
   height:300px;
@@ -373,7 +427,7 @@ slide p{
 	background:#fff;	
 	opacity:0.7;
 	position:absolute;
-	top:285px;
+	top:300px;
 	left:0;
 	width:340px;
 	height:300px;
@@ -384,7 +438,7 @@ slide p{
 			  transition: all 200ms ease-out;
    }
    #product-card2.animate .stats-container2{
-	top:200px;
+	top:150px;
 	-webkit-transition: all 200ms ease-out; 
 		 -moz-transition: all 200ms ease-out; 
 		   -o-transition: all 200ms ease-out; 
@@ -423,7 +477,7 @@ slide p{
    background:#fff;	
    opacity:0.7;
    position:absolute;
-   top:285px;
+   top:300px;
    left:0;
    width:340px;
    height:300px;
@@ -449,7 +503,7 @@ slide p{
 	 background:#fff;	
 	 opacity:0.7;
 	 position:absolute;
-	 top:285px;
+	 top:300px;
 	 left:0;
 	 width:340px;
 	 height:300px;
@@ -493,7 +547,7 @@ slide p{
    background:#fff;	
    opacity:0.7;
    position:absolute;
-   top:285px;
+   top:300px;
    left:0;
    width:340px;
    height:300px;
@@ -519,7 +573,7 @@ slide p{
 	background:#fff;	
 	opacity:0.7;
 	position:absolute;
-	top:285px;
+	top:300px;
 	left:0;
 	width:340px;
 	height:300px;
@@ -537,4 +591,5 @@ slide p{
 			  transition: all 200ms ease-out; 
    }
  /* card end */
+
  
