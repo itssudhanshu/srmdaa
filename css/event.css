@@ -1,7 +1,7 @@
 .header{
-    position: absolute;
 	color: white;
 	z-index: 10;
+	background-color: black;
 }
 h1{
 	font-family: 'Open Sans', sans-serif;
@@ -24,7 +24,8 @@ h1{
   .headertoggle{
       transition: 0.3s;
       background-color:black;
-      color: white;
+	  color: white;
+	  z-index: 9;
   }
   .headertoggle a{
       color:white;
