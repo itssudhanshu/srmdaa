@@ -85,3 +85,11 @@ var galleryTop = new Swiper('.gallery-top', {
     swiper: galleryThumbs,
   },
 });
+function myFunction1() {
+  var x = document.getElementById("navbarSupportedContent");
+  if (x.className === "navbar-collapse") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar-collapse";
+  }
+}
