@@ -13,14 +13,14 @@ window.onscroll = function () {
       header.classList.remove("sticky");
     }
 
-    if (document.body.scrollTop > 590 || document.documentElement.scrollTop > 590) {
+    if (document.body.scrollTop > 580 || document.documentElement.scrollTop > 580) {
       header.classList.add("headertoggle");
     } else {
       header.classList.remove("headertoggle");
     }
   }
 //   <!-- countdown js -->
-  var countDownDate = new Date("jul 20 , 2019 ").getTime();
+  var countDownDate = new Date("jul 27 , 2019 ").getTime();
   var x = setInterval(function () {
     var now = new Date().getTime();
     var distance = countDownDate - now;
