@@ -594,3 +594,33 @@ slide p{
  /* card end */
 
  
+
+
+ 
+.navbar-collapse .icon {
+	display: none;
+  }
+  @media screen and (max-width: 973px) {
+	.navbar-collapse a {display: none;}
+	.navbar-collapse a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+  @media screen and (max-width: 973px) {
+	.navbar-collapse .responsive {position: relative;}
+	.navbar-collapse .responsive a.icon {
+	  
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	.navbar-collapse .responsive a {
+	  background-color: white;
+	  text-emphasis: opacity;
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
+  
